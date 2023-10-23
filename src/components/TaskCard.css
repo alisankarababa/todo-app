@@ -1,0 +1,50 @@
+.task-card-container {
+    container-type: inline-size;
+    container-name: task-card-container;
+}
+
+.task-card {
+    padding: 1em 1em;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 0.2rem 0.2rem;
+}
+
+.task-card__deadline {
+    font-weight: 700;
+}
+
+.task-card__button {
+    padding: 0.50em 0.75em;
+    border-radius: 10rem;
+    background-color: var(--clr-greenish);
+}
+
+
+@container task-card-container (max-width: 450px) {
+    
+    .task-card__button {
+        font-size: 0.8rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .card-task button {
+        font-size: 0.8rem;
+    }
+}
+
+@container task-card-container (min-width: 451px) {
+    
+    .task-card__button {
+        align-self: flex-end;
+        font-size: 1rem;
+    }
+    
+    .card-task button {
+        font-size: 0.8em;
+    }   
+}

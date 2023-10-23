@@ -1,0 +1,26 @@
+.get-started {
+    font-size: 0.875rem;
+    padding: 2em 3em;
+    text-align: center;
+}
+
+
+
+
+
+.get-started img {
+    display: block;
+    width: 35%;
+    aspect-ratio: 1 / 1;
+    margin: 8rem auto 4.5rem auto;
+}
+
+.get-started h1 {
+    letter-spacing: 0.0525rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 4rem;
+}
+
+.get-started a {
+    margin-top: 5rem;
+}
